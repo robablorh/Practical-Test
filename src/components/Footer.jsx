@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
   
 
-       <p className="footer"> &copy; 2023 THE INSURANCE HUB . All Rights Reserved. Developed by Catheta Technologies</p>
+       <p className="footer"> &copy; 2023 THE XYZ Company . All Rights Reserved. Developed by Catheta Technologies</p>
 
 
     

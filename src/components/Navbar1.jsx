@@ -7,7 +7,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import logo from '../images/newlogo.png'
+import logo from '../images/xyz.png'
 
 
 
@@ -79,11 +79,11 @@ const Navbar1 = () => {
               <img
                 alt=""
                 src={logo}
-                width="100"
+                width="150"
                 height="70"
                 className="d-inline-block align-top"
               />
-              <span className="fw-bolder text-primary ms-1">XYZ</span>
+              <span className="fw-bolder text-primary ms-1">MICRO FINANCE</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

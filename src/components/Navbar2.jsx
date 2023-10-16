@@ -55,7 +55,7 @@ function TextLinkExample() {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              <p className='text-white'>Signed in as:<span className='user text-white' style={{ textTransform: 'uppercase' }}> {user[0].name}</span> </p> 
+              <p className='text-white'>Signed in as:<span className='user text-white' style={{ textTransform: 'uppercase' }}> {user[user.length-1].name}</span> </p> 
               
             </Navbar.Text>
           </Navbar.Collapse>

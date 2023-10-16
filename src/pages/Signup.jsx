@@ -44,7 +44,7 @@ const Signup = () => {
       
       if(data.success){
         dispatch(addUser(data.data.name));
-        navigate("/vehichel1");
+        navigate("/login");
       }
     } catch (error) {
       if(error.response.status === 401){
@@ -78,7 +78,7 @@ const Signup = () => {
               height="70"
               className="d-inline-block align-top"
             />
-            <span className="fw-bolder text-primary ms-1">INSURANCE</span>
+            <span className="fw-bolder text-primary ms-1">XYZ</span>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -91,12 +91,12 @@ const Signup = () => {
               </Nav.Item>
               <Nav.Item className="text-center"> {/* Center-align the second item */}
                 <Nav.Link className="n22links">
-                  <Link to='/autoinsurance'>Insurance Companies</Link>
+                  <Link to='/autoinsurance'>About</Link>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item className="text-center"> {/* Center-align the third item */}
                 <Nav.Link className="n22links">
-                  <Link to='/insurancecovers'>Insurance Covers</Link>
+                  <Link to='/insurancecovers'>Services</Link>
                 </Nav.Link>
               </Nav.Item>
             </Nav>
@@ -108,7 +108,7 @@ const Signup = () => {
 
 
 
-    <div style={{ backgroundColor: "#f2eefb", height: "100vh" }} className="d-flex justify-content-center rounded shadow p-4 mx-auto">
+    <div style={{ backgroundColor: "black", height: "100vh" }} className="d-flex justify-content-center rounded shadow p-4 mx-auto">
       <Container className="w-50  my-auto"
         style={{
           backgroundColor: "white", // Replace with your desired background color

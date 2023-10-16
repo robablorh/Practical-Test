@@ -102,7 +102,7 @@ const Signin = () => {
 
 
 
-    <div style={{ backgroundColor: "#f2eefb", height: "100vh" }} className="d-flex justify-content-center rounded shadow p-4 mx-auto">
+    <div style={{ backgroundColor: "black", height: "100vh" }} className="d-flex justify-content-center rounded shadow p-4 mx-auto">
       <Container className="w-50 h-75 my-auto"
         style={{
           backgroundColor: "white", // Replace with your desired background color
@@ -162,9 +162,6 @@ const Signin = () => {
                   </Link>
                 </div>
 
-                {/* <button type="submit" className="btn btn-primary sibtn">
-                  Login
-                </button> */}
 
                 <input className="sibtn text-white" type="submit" value="login" />
                 <p className="sinp">
@@ -173,24 +170,7 @@ const Signin = () => {
               </form>
             </div>
           </Col>
-          {/* <Col
-            md={4}
-            className="d-flex justify-content-center align-items-center"
-          >
-            <img
-              src={signinpng}
-              alt="car insurance app"
-              className="img-fluid"
-              style={{
-                backgroundColor: "blue",
-                boxShadow: "10px 10px 10px 0px rgba(0,0,0,0.75)",
-                height: "35rem",
-                width: "100%",
-                marginTop: "5rem",
-                borderRadius: "2rem",
-              }}
-            />
-          </Col> */}
+        
         </Row>
       </Container>
     </div>
